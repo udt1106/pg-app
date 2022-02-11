@@ -40,7 +40,7 @@ button .btn-dark.active {
 }
 .shopping-container .shopping-bag {
   position: absolute;
-  top: 26%;
+  /* top: 26%; */
 }
 .shopping-container .fa-shopping-bag {
   /*color: white;*/
@@ -73,12 +73,12 @@ button .btn-dark.active {
   margin: 2%;
 }
 .store-container .store-nav {
-  margin-top: -6%;
-  display: flex;
+  /* margin-top: -6%;
+  display: flex; */
   justify-content: center;
 }
 .store-container .store-nav form {
-  padding-left: 35px;
+  /* padding-left: 35px; */
 }
 .store-container .store-nav .dropdown {
   border: none;

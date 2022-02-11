@@ -37,28 +37,32 @@ function Store(props) {
   // End of Search Functionality
 
   if (props.products.length === 0) {
-    return "Products are unfolding...";
+    return "Please wait... Products are unfolding...";
   }
 
   return (
     <div className="store-container">
+      <br /><br />
       <div className="store-nav">
         <form onSubmit={handleSubmit}>
           <select
             className="dropdown"
+            class="form-control" 
             onChange={handleChange}
             value={props.currentCategory}
             aria-label="dropdown"
           >
-            <option value="" placeholder="see all products">
-              See all Products
+            <option value="" placeholder="Select product type">
+              All Products
             </option>
-            <option value="electronics">Electronics</option>
-            <option value="jewelery">Jewelry</option>
-            <option value="men's clothing">Men's Clothing</option>
-            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">- Electronics</option>
+            <option value="jewelery">- Jewelry</option>
+            <option value="men's clothing">- Men's Clothing</option>
+            <option value="women's clothing">- Women's Clothing</option>
           </select>
         </form>
+      </div>
+      <div className="search-bar">
         <div>
           <SearchBar placeholder="Search" />
         </div>
