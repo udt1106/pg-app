@@ -11,12 +11,14 @@ const SearchBar = (props) => {
 
   return (
     <div className="search-bar">
-      <span className="search-span">
+      {/* <span className="search-span">
         <i className="fas fa-search"></i>
-      </span>
+      </span> */
+      <br />}
       <input
         className="search-input"
         type="text"
+        class="form-control" 
         value={props.currentQuery}
         onChange={onSearch}
         placeholder="Search P&G Products..."
