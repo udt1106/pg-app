@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { fetchAllProducts } from "../actions/actions";
-
 import { useRouteMatch } from "react-router-dom";
-
 import AddToCartButton from "../components/AddToCart";
 
 function Product(props) {

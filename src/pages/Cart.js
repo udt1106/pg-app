@@ -70,6 +70,7 @@ function Cart(props) {
   );
 }
 
+
 const mapStateToProps = (state) => {
   return {
     products: state.products,

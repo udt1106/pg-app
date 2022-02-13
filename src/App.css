@@ -42,6 +42,9 @@ button .btn-dark.active {
   position: absolute;
   /* top: 26%; */
 }
+.shopping-container {
+  text-align: center;
+}
 .shopping-container .fa-shopping-bag {
   /*color: white;*/
   font-size: 28px;

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Store from "./pages/Store";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import SideBar from "./components/SideBar";
 
 import { fetchAllProducts } from "./actions/actions";
@@ -34,6 +35,9 @@ function App(props) {
           <Route path="/cart">
             <Cart />
           </Route>
+          {/* <Route path="/checkout">
+            <Checkout />
+          </Route> */}
         </div>
       </main>
     </>
